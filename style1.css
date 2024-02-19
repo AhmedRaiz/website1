@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    flex-direction: column;
+}
+header{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    
+    padding: 20px;
+}
+section {
+    display: flex;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+.main2 p{
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.main1 h4{
+    margin-left: 200px;
+}
+.maindiv{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 200px;
+
+}
+.mam button{
+    margin-left: 100px;
+    width: 90px;
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+.mam1 button{
+    margin-left: 60px;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: white;
+}
+.maindiv1{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 240px;
+}
+.main2 h4{
+    margin-left: 75px;
+}
+.mam2 button{
+    margin-left: 140px;
+    width: 90px;
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.loga1 img{
+    width: 90px;
+   
+   
+}
+.loga2 img{
+    width: 40px;
+   
+}
+h5{
+    width: 1000px;
+}
+.ahm nav{
+   text-align: center;
+   margin-top: 30px;
+}
+.ahm1 {
+    display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+.img7 img{
+    width: 60px;
+}
+.ahm1 h2{
+    margin-top: 20px;
+}
+.h3 h5{
+    margin-left: 90px;
+   
+}
+@media(max-width:600){
+    body{
+        background-color: aquamarine;
+    }
+    .maindiv1{
+        width: 400px;
+    }
+
+}
+
